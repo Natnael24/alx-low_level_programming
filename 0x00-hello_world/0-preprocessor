@@ -1,3 +1,2 @@
 #!/bin/bash
-gcc -c main.c $CFILE>0-main.c 
-
+gcc -c main.c $CFILE>0-main.c
