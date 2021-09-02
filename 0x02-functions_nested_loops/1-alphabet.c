@@ -7,11 +7,10 @@
  * It does print the alphabet in lowercase.
  */
 
-void print_alphabet_x10(void)
+void print_alphabet(void)
 {
   char s[] = "abcdefghijklmnopqrstuvwxyz";
   int i = 0;
-  int j = 0;  
    for (i = 0; s[i] != '\0'; i++)
    {
      _putchar(s[i]);
