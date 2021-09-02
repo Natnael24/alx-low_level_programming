@@ -4,6 +4,7 @@
  * void print_alphabet_x10(void) - prints lower case alphabets 10x.
  * @char s[]: the alphabet
  * Discription: pirnts it line by line
+ * It does print the alphabet in lowercase.
  */
 
 void print_alphabet_x10(void)
