@@ -14,5 +14,6 @@ int main(void)
 	{
 	_putchar(s[i]);
 	}
+	
 	return (0);
 }
