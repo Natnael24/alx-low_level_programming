@@ -13,9 +13,6 @@ int main(void)
 	for (i = 0; s[i] != '\0'; i++)
 	{
 	_putchar(s[i]);
-		if (s[i] == 8){
-		_putchar('\n');
-		}
 	}
 	return (0);
 }
