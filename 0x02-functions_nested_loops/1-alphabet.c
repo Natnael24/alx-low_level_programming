@@ -7,13 +7,13 @@
  * It does print the alphabet in lowercase.
  */
 
-void print_alphabet(void)
+void print_alphabet()
 {
-  char s[] = "abcdefghijklmnopqrstuvwxyz";
-  int i = 0;
-   for (i = 0; s[i] != '\0'; i++)
-   {
+      const char s[] = "abcdefghijklmnopqrstuvwxyz";
+      int i = 0;
+      for (i = 0; s[i] != '\0'; i++)
+     {
      _putchar(s[i]);
-   }
+     }
   _putchar('\n');
 }
