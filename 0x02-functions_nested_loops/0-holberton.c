@@ -12,10 +12,11 @@ int main(void)
 	int i = 0;
 	
 	for (i = 0; s[i] != '\0'; i++)
-	{		
-	_putchar(s[i]);
-		if (s[i] = '\0')
-			_putchar('\n');
+	{	
+	if (s[i] == '\0')
+		_putchar('\n');
+	else
+		_putchar(s[i]);
 	}
 	return (0);
 }
