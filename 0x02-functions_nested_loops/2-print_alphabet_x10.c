@@ -8,6 +8,13 @@
 
 void print_alphabet_x10(void)
 {
+
+/**
+ * prints lower case alphabets 10x.
+ *
+ * Return: Always 0.
+ */
+
 const char s[] = "abcdefghijklmnopqrstuvwxyz";
 int i = 0;
 int j = 0;
