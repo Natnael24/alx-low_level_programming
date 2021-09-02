@@ -7,7 +7,7 @@
  * It does print the alphabet in lowercase.
  */
 
-void print_alphabet_x10(void)
+void print_alphabet_x10(void)/** this is the function*/
 {
 char s[] = "abcdefghijklmnopqrstuvwxyz";
 int i = 0;
