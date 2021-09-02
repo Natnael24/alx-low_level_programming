@@ -5,7 +5,6 @@
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {	const char s[] = "_putchar";
 	int i = 0;
