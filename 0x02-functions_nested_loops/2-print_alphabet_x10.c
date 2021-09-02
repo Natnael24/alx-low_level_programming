@@ -1,19 +1,13 @@
 #include "main.h"
 
 /**
- * prints lower case alphabets 10x.
- *
- * Return: Always 0.
+ * void print_alphabet_x10(void) - prints lower case alphabets 10x.
+ * @char s[]: the alphabet
+ * Discription: pirnts it line by line
  */
 
 void print_alphabet_x10(void)
 {
-
-/**
- * prints lower case alphabets 10x.
- *
- * Return: Always 0.
- */
 char s[] = "abcdefghijklmnopqrstuvwxyz";
 int i = 0;
 int j = 0;
