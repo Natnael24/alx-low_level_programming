@@ -9,11 +9,13 @@
 int main(void)
 {
 	const char s[] = "_putchar";
-	int i;
+	int i = 0;
 	
 	for (i = 0; s[i] != '\0'; i++)
 	{		
 	_putchar(s[i]);
+		if (s[i] = '\0')
+			_putchar('\n');
 	}
 	return (0);
 }
