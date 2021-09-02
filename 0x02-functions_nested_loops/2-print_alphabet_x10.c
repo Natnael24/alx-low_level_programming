@@ -15,7 +15,7 @@ void print_alphabet_x10()
   {
 	  for (i = 0; s[i] != '\0'; i++)		
 	  {
-      return _putchar(s[i]);
+               _putchar(s[i]);
 	  }
   }
 }
