@@ -1,15 +1,16 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
 
-const char* printChr(){
-
-return "_putchar";
-}
-
 int main(void){
-printf("%s", printChr());
+	const char s[] = "_putchar";
+	int i;
+	for(i=0; s[i]!='\0'; i++){
+	_putchar(s[i]);
+	}
+	return (0);
 }
